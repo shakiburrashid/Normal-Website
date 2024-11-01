@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Root */
+:root {
+    --primary-text-color: #183656;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px
+}
+p{
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Poppins'
+}
+.flex{
+    display: flex;
+}
+.rowrevearseflex{
+    flex-direction: row-reverse;
+}
+.btn {
+    height: 48px;
+    background-color: #608BC1;
+    color: white;
+    width: 8rem;
+    font-size: 20px;
+    border: 2.5px  solid rgb(98, 98, 255);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #81b1ed;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.topBanner {
+    background-image: url(assets/header-banner.jpg);
+    color: wheat;
+    height: 3rem;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.logo p {
+    display: inline;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbarList {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbarList li a {
+    font-weight: 500;
+    color: #28533f;
+    font-size: 20px;
+}
+
+.clickHover:hover {
+    color: #99e4c1;
+    font-weight: 700;
+}
+.btn1{
+    background-color: transparent;
+    color: black;
+}
+.btn1:hover{
+    background-color: #608BC1;
+    color: white;
+}
+.btn2:hover{
+    background-color: #81b1ed;
+    color: white;
+}
+.heroSide{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    margin: 15px;
+    gap: 50px;
+}
+.heroSide-left{
+    margin: 35px;
+}
+.heroSide button{
+    margin: 3% 0 0 0;
+}
+.comapnyName{
+   text-align: center;
+}
+.comapnyNameLogo{
+    display: flex;
+    margin-top: 8px;
+    height: 60px;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.btn4{
+    display: flex;
+    background-color: transparent;
+    color: black;
+    width: 13rem;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+
+
+.btn5 {
+    color: black;
+    width: 13rem;
+    font-size: 15px;
+    margin-top: 18px;
+    align-items: center;
+    justify-content: center;
+
+}
+.featureSection{
+    background-image: url('assets/feature-background-photo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.featureContainer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:12px;
+}
+.feturePart{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.featureCard{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.BigFeatureContainer{
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 4% 10% 0;
+    gap:20px;
+  
+
+
+}
+.BigFeatureContainerLeft{
+    background: url('assets/feature-background-photo.png');
+    background-repeat: no-repeat;
+    background-size: 107% 87%;
+}
